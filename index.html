@@ -1,7 +1,62 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <title>DERT Landing Page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Display</h1>
+                <select name="Lead Name" id="Display_Person_Queue_Selector">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                </select>
+                <ul id="Display_Queue">
+                    <li>
+                        <ul>
+                            <li>Person</li>
+                            <li>Task Description</li>
+                            <li>Minutes</li>
+                        </ul>
+                        <button>Remove From Queue</button>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Person</li>
+                            <li>Task Description</li>
+                            <li>Minutes</li>
+                        </ul>
+                        <button>Remove From Queue</button>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Person</li>
+                            <li>Task Description</li>
+                            <li>Minutes</li>
+                        </ul>
+                        <button>Remove From Queue</button>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h1>Interface</h1>
+                <input type="text" id="Interface_Short_Description" />
+                <select name="Time Select" id="Interface_Time_Selector">
+                    <option value="5">5 min</option>
+                    <option value="10">10 min</option>
+                    <option value="15">15 min</option>
+                    <option value="20">20 min</option>
+                    <option value="30">30 min</option>
+                    <option value="60">60 min</option>
+                </select>
+                <button>Submit</button>
+            </section>
+
+            <button id="FunctionTestButton">Function Test Button</button>
+            <script src="queue/js/DisplayQueue.js"></script>
+        </main>
+    </body>
+    
 </html>
